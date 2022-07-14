@@ -486,5 +486,8 @@ iframe {
         width: 50vw;
         margin-top: 8vh;
     }
+    .input-contato {
+        font-size: 3vw;
+    }
  
 }
