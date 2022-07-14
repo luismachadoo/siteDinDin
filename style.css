@@ -305,6 +305,7 @@ iframe {
 .box-contato {
     margin-top: 25vh;
     margin-bottom: 15vh;
+    padding: 0 10vw;
 }
 .box-contato-1 {
     display: flex;
@@ -474,6 +475,7 @@ iframe {
     .box-contato {
         margin-top: 32vh;
         margin-bottom: 15vh;
+        padding: 0 0vw;
     }
     .title-contato {
         margin-left: 19vw;
