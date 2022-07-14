@@ -1,0 +1,411 @@
+*, ul, li, a {
+    margin: 0 auto;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: default;
+    font-size: 8px;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+}
+.menu-header {
+    background-color: #2E948A;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+}
+.logo-home-header {
+    padding: 1rem;
+}
+.lista-home-header {
+    padding: 4rem;
+}
+.link-nav-home {
+    padding: 0 1rem;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #FDFDFD;
+}
+.link-nav-home:hover {
+    color: #FF4081;
+    transition: 300ms;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+    border-radius: 20px;
+    background-color: #fff;
+
+}
+.title-principal {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    color: #FF4081;
+    margin-bottom: 2rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+}
+.home-1 {
+    text-align: start;
+    align-self: center;
+    width: 403px;
+}
+.subtitle {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 31px;
+    color: #555555;
+    margin-bottom: 3rem;
+}
+.container-home1 {
+    margin-top: 15rem;
+    padding: 0 3rem;
+}
+.btn-home1 {
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 31px;
+    color: #FF4081;
+    padding: 1rem 3.5rem;
+}
+.btn-home1:hover {
+    color: #fff;
+    background-color: #2E948A;
+    transform:rotate(360deg);
+    transition: 1s;
+}
+.img-home1 {
+    width: 501px;
+    height: 511px;
+}
+.img-home1-2 {
+    margin-top: 6rem;
+}
+.container2-home {
+    padding: 0 15rem;
+    background-color: #F6F6F6;
+    margin-top: 10rem;
+}
+.card-home {
+    margin-top: 10rem;
+    width: 310px;
+    display: flex;
+    margin-bottom: 10rem;
+    flex-direction: column;
+    align-items: center;
+}
+.subtitle-h2 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 29px;
+    text-align: center;
+    color: #FF4081;
+    margin-top: 3rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+}
+.p-cards-home {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    padding: 0 5rem;
+}
+.btn-home-card {
+    background: #FF4081;
+    border-radius: 62px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    border: transparent;
+    padding: 0.5rem 3.5rem;
+    margin-top: 3rem;
+}
+.btn-home-card:hover {
+    background-color: #2E948A;
+    transition: 300ms;
+}
+.p-sobre-nos {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    padding-left: 15px;
+    margin-bottom: 10rem;
+}
+.container3-home {
+    padding: 0 10rem;
+    margin: 10rem 0rem;
+}
+.box-sobre-nos {
+    max-width: 440px;
+}
+.strong-sobre-nos {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+}
+.title-sobre-nos {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 50px;
+    color: #009688;
+    margin-bottom: 10rem;
+    margin-left: 10rem;
+}
+.box-media-home {
+    width: 280px;
+    margin-top: 5rem;
+}
+.box-media-home-dad {
+    padding: 0 15rem;
+    background-color: #F6F6F6;
+    padding-bottom: 8rem;
+}
+.p-media-home {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: justify;
+    color: #000000; 
+}
+.subtitle-media-home {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 31px;
+    color: #009688;
+    margin-top: 1rem;
+}
+.title-box-media {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 43px;
+    color: #009688;
+    text-transform: uppercase;
+    padding-top: 8rem;
+    padding-left: 6rem;
+}
+.btn-home-media {
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    width: 275px;
+    height: 51px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FF4081;
+    margin: 0 auto;
+    margin-top: 8rem;
+}
+.btn-home-media:hover {
+    background-color: #2E948A;
+    color: #fff;
+    transform: scale(120%);
+}
+iframe {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+.box-footer {
+    background-color: #009688;
+    padding-bottom: 2rem;
+}
+.logo-footer {
+    margin-top: 2rem;
+    width: 100%;
+}
+.box-footer1 {
+    display: flex;
+    justify-content: flex-end;
+}
+.link-footer {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    padding: 0rem 1rem;
+}
+.link-footer:hover {
+    color: #FF4081;
+    transition: 300ms;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+    border-radius: 20px;
+    background-color: #fff;
+}
+.itens-footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.box-footer2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.item-footer {
+    margin-left: 0;
+    margin-top: 1rem;
+}
+.btn-footer {
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: transparent;
+    padding: 1rem 4rem;
+    width: 250px;
+    margin-top: 1rem;
+}
+.box-footer3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
+
+
+
+
+/* \/ media queries \/ */
+
+@media screen and (max-width: 570px) {
+    .title-sobre-nos {
+        font-size: 25px;
+        line-height: 30px;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .title-sobre-nos {
+        margin-left: 0;
+    }
+    .box-sobre-nos {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
+@media screen and (max-width: 468px) {
+    .container2-home {
+        padding: 0 3rem;
+    }
+    .container2-home {
+        margin-top: 0;
+    }
+    
+}
+
+@media screen and (min-width: 374px) {
+    
+    .container-home1 {
+        margin-top: 30rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container-home1 {
+        margin-top: 20rem;
+    }
+
+}
+
+@media screen and (max-width: 760px) {
+    .title-box-media {
+        font-size: 20px;
+        
+    }
+    .box-media-home-dad {
+        padding: 0 0rem;
+    }
+    .btn-home-media {
+        width: 200px;
+        height: 31px; 
+        font-size: 15px;
+        margin-bottom: 5rem;  
+    }
+}
+
+@media screen and (min-width: 952px) {
+    .container-home1 {
+        margin-top: 15rem;
+    }
+}
+
+@media screen and (min-width: 1060px) {
+    .container-home1 {
+        padding: 0 15rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .box-footer1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 33.3333%;
+        }
+    .box-footer2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 33.3333%;
+    }  
+    .box-footer3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 33.3333%;
+    }
+    .btn-footer {
+        width: 100%;
+        font-size: 3vw;
+        padding: 1vw;
+    }  
+    .link-footer {
+        font-size: 3vw;
+        line-height: 3vw;
+    }
+ 
+}
