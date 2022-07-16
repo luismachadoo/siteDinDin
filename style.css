@@ -446,6 +446,19 @@ iframe {
     padding: 1vh 2vw;
     border: none;
 }
+.btn-link {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.btn-link:hover {
+    color: #fff;
+}
 .btn-card-cursos:hover {
     background: #24766e;
 }
