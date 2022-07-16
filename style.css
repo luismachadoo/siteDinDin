@@ -77,6 +77,17 @@
     color: #FF4081;
     padding: 1rem 3.5rem;
 }
+.btn-home-link {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 31px;
+    color: #FF4081;
+}
+.btn-home-link:hover {
+    color: #fff;
+}
 .btn-home1:hover {
     color: #fff;
     background-color: #2E948A;
@@ -137,6 +148,18 @@
     border: transparent;
     padding: 0.5rem 3.5rem;
     margin-top: 3rem;
+}
+.btn-home-card-link {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.btn-home-card-link:hover {
+    color: #fff;
 }
 .btn-home-card:hover {
     background-color: #2E948A;
@@ -229,6 +252,17 @@
     margin: 0 auto;
     margin-top: 8rem;
 }
+.btn-home-media-link {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FF4081;
+}
+.btn-home-media-link:hover {
+    color: #fff;
+}
 .btn-home-media:hover {
     background-color: #2E948A;
     color: #fff;
@@ -295,6 +329,18 @@ iframe {
     padding: 1rem 4rem;
     width: 250px;
     margin-top: 1rem;
+}
+.btn-footer-link {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.btn-footer-link:hover {
+    color: #fff;
 }
 .btn-footer:hover {
     background: #29857c;
@@ -618,6 +664,12 @@ iframe {
     }
     .img-card-cursos {
         width: 50%;
+    }
+    .btn-home-media-link {
+        font-size: 2rem;
+    }
+    .btn-footer-link {
+        font-size: 1.3rem;
     }
  
 }
