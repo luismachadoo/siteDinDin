@@ -296,6 +296,10 @@ iframe {
     width: 250px;
     margin-top: 1rem;
 }
+.btn-footer:hover {
+    background: #29857c;
+    
+}
 .box-footer3 {
     display: flex;
     flex-direction: column;
@@ -322,7 +326,7 @@ iframe {
     font-size: 4vw;
     line-height: 46px;
     color: #FF4081;
-    margin-left: 9vw;
+    margin-left: 4vw;
     margin-bottom: 7vh;
 }
 .input-contato {
@@ -363,9 +367,100 @@ iframe {
     margin-left: 0vw;
     margin-top: 2vh;
 }
+.btn-contato:hover {
+    background: #FF669a;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+    transition: 300ms;
+}
 .img-contato {
     width: 40vw;
     height: 60vh;
+}
+.line-title-cursos{
+    margin-top: 25vh;
+    margin-bottom: 10vh;
+    padding: 0vh 10vw;
+}
+.tilte-cursos {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    text-transform: capitalize;
+    color: #FF4081;
+}
+.subtitle-cursos {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #555555;
+}
+.line-card-cursos {
+    padding: 0vh 10vw;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+}
+.img-card-cursos {
+    width: 100%;
+
+}
+.box-card-cursos-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title-card-cursos {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+    margin-bottom: 5vh;
+    margin-top: 3vh;
+    margin-left: 0;
+}
+.p-card-cursos {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16.5px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 5vh;
+}
+.btn-card-cursos {
+    background: #419488;
+    border-radius: 62px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 1vh 2vw;
+    border: none;
+}
+.btn-card-cursos:hover {
+    background: #24766e;
+}
+.box-cards-cursos {
+    padding: 0vh 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: start;
+}
+.line {
+    border-bottom: 4px solid #C4C4C4;
+}
+.border-cards-cursos {
+    padding: 0vh 8vw;
 }
 
 
@@ -480,6 +575,7 @@ iframe {
     .title-contato {
         margin-left: 19vw;
         font-size: 8vw;
+        margin-bottom: 2vh;
     }
     .input-contato {
         width: 60vw;
@@ -487,9 +583,28 @@ iframe {
     .img-contato {
         width: 50vw;
         margin-top: 8vh;
+        
     }
     .input-contato {
         font-size: 3vw;
+    }
+    .line-title-cursos{
+        margin-top: 35vh;
+    }
+    .p-card-cursos {
+        text-align: justify;
+    }
+    .btn-card-cursos {
+        margin: 0 auto;
+        font-size: 15px;
+        padding: 1vh 5vw;
+    }
+    .title-card-cursos {
+        text-align: center;
+        font-size: 30px;
+    }
+    .img-card-cursos {
+        width: 50%;
     }
  
 }
