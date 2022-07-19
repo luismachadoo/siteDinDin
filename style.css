@@ -521,6 +521,76 @@ iframe {
 .border-cards-cursos {
     padding: 0vh 8vw;
 }
+.box-curso-title-1 {
+    padding: 2rem;
+}
+.box-curso-title-2 {
+    padding: 3rem;
+    display: flex;
+}
+.title-curso {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 50px;
+    color: #FF4081;
+    margin-bottom: 5rem;
+}
+.p-curso-title {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.box-curso-title-dad {
+    align-items: center;
+    padding: 0rem 22.5rem;
+    margin-top: 20vh;
+}
+.img-curso {
+    width: 85%;
+}
+.title-curso-card {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #FF4081;
+}
+.p-curso-card {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.box-curso-card-dad {
+    padding: 0rem 20rem;
+    margin-top: 15vh;
+    margin-bottom: 10rem;
+}
+.media-curso {
+    border: 2px solid #58555D;
+}
+.box-card-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.border-cards-curso {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5vh;
+}
 
 
 
@@ -597,6 +667,35 @@ iframe {
         padding: 0 15rem;
     }
 }
+@media screen and (max-width: 1100px) {
+        .box-curso-title-dad {
+            flex-direction: column;
+            padding: 0rem ;
+        }
+        .title-curso {
+            text-align: center;
+            font-size: 5rem;
+            line-height: 5rem;
+        }
+        .p-curso-title {
+            text-align: justify;
+            font-size: 2.5rem;
+        }
+        .img-curso {
+            width: 70%;
+        }
+        .box-curso-title-2 {
+            display: flex;
+            justify-content: center;
+        }
+        .box-curso-card-dad {
+            flex-direction: column;
+            padding: 0rem 10rem;
+        }
+        .title-curso-card {
+            margin-top: 4rem;
+        }
+}
 
 @media screen and (max-width: 767px) {
     .box-footer1 {
@@ -671,5 +770,33 @@ iframe {
     .btn-footer-link {
         font-size: 1.3rem;
     }
- 
+    .box-curso-title-dad {
+        margin-top: 30vh;
+        padding: 3rem 6rem;
+    }
+    .title-curso {
+        text-align: center;
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+    .p-curso-title {
+        text-align: justify;
+        font-size: 2rem;
+    }
+    .img-curso {
+        width: 80%;
+    }
+    .box-curso-title-2 {
+        display: flex;
+        justify-content: center;
+    }
+    .p-curso-card {
+        text-align: justify;
+    }
+    .title-curso-card {
+        text-align: center;
+    }
+    .box-curso-card-dad {
+        padding: 0rem 3rem;
+    }
 }
