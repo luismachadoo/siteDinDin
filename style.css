@@ -15,8 +15,22 @@
     overflow: hidden;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
 }
+.box-header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0rem 7rem;
+}
 .logo-home-header {
-    padding: 1rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.nav-home-header {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
 }
 .lista-home-header {
     padding: 4rem;
@@ -969,6 +983,19 @@ iframe {
     }
     .title-post-3 {
         font-size: 31px;
+    }
+    .logo-home-header {
+        padding-top: 1rem;
+        flex-direction: column;
+        align-content: center;
+    }
+    .box-header {
+        display: flex;
+        padding: 0rem 3rem;
+    }
+    .nav-home-header {
+        flex-direction: column;
+        align-content: center;
     }
     
 }
